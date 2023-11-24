@@ -1026,7 +1026,7 @@ footer {
 
   .page-careers-cards {
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    gap: 20px;
   }
   .posts__card {
     padding: 15px;
@@ -1171,7 +1171,6 @@ footer {
 
   .page-careers-cards {
     grid-template-columns: 1fr;
-    gap: 15px;
   }
 
   .blog__search {
@@ -1193,6 +1192,10 @@ footer {
 
   .blog__posts-wrapper > div:nth-child(2n + 1):not(:first-child) {
     margin-top: 0px;
+  }
+
+  .page {
+    padding-bottom: 60px;
   }
 }
 
@@ -1218,5 +1221,9 @@ footer {
 
   .footer__wrapper div:first-child {
     order: 1;
+  }
+
+  .section-banner {
+    margin-bottom: 10px;
   }
 }
