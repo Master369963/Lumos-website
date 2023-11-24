@@ -10,7 +10,7 @@ You can check out the online demo [here](https://lumos-website-sigma.vercel.app/
 
 ### Original design
 
-![image]()
+![image](https://github.com/Master369963/Lumos-website/blob/main/images/ReadmeAssets/original.jpg)
 
 ---
 
@@ -18,12 +18,12 @@ You can check out the online demo [here](https://lumos-website-sigma.vercel.app/
 
 Wireframe (Created by Figma)
 
-![image]()
+![image](https://github.com/Master369963/Lumos-website/blob/main/images/ReadmeAssets/wireframe.png)
 
 Light mode
 
-![image]()
+![image](https://github.com/Master369963/Lumos-website/blob/main/images/ReadmeAssets/new-light.jpg)
 
 Dark mode
 
-![image]()
+![image](https://github.com/Master369963/Lumos-website/blob/main/images/ReadmeAssets/new-dark.jpg)
