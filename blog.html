@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lumos is the all-in-one communications, employee engagement and shift-booking platform loved by workers."
+    />
+    <meta
+      name="title"
+      contenr="Lumos dev page: This is a page for us to share what we're getting up to in the background!"
+    />
+    <meta
+      name="og:description"
+      content="Lumos is the all-in-one communications, employee engagement and shift-booking platform loved by workers."
+    />
+    <meta
+      name="og:title"
+      contenr="Lumos dev page: This is a page for us to share what we're getting up to in the background!"
+    />
+    <meta property="og:image" content="images/social-share.jpg" />
+
+    <script
+      src="https://kit.fontawesome.com/40f7398fd9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon/favicon-16x16.png"
+    />
+    <title>Lumos Developer Page - Blog</title>
+  </head>
+  <body id="blog">
+    <header id="header">
+      <div class="container header__wrapper">
+        <a href="index.html" class="header__logo">
+          <div class="logo_image">
+            <img
+              src="./images/logo/Lumos-logo-blue.png"
+              alt="blue logo image"
+              class="header_logo logo-blue"
+            />
+            <img
+              src="./images/logo/Lumos-logo-white.png"
+              alt="white logo image"
+              class="header_logo logo-white"
+            />
+          </div>
+          <!-- <span class="header__title">Developer Page</span> -->
+        </a>
+        <input type="checkbox" class="nav__checkbox" id="navi-toggle" />
+        <label for="navi-toggle" class="nav__hamburger"
+          ><i class="fa-solid fa-bars"></i><i class="fa-solid fa-xmark"></i
+        ></label>
+        <nav class="header__navbar">
+          <ul>
+            <li><a href="./index.html#team">Our team</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./careers.html">Careers</a></li>
+          </ul>
+        </nav>
+        <button class="header__mode-btn" onclick="toggleMode()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M17 12c0 2.762-2.238 5-5 5s-5-2.238-5-5 2.238-5 5-5 5 2.238 5 5zm-5-7c.34 0 .672.033 1 .08v-2.08h-2v2.08c.328-.047.66-.08 1-.08zm-4.184 1.401l-1.472-1.473-1.415 1.415 1.473 1.473c.402-.537.878-1.013 1.414-1.415zm9.782 1.414l1.473-1.473-1.414-1.414-1.473 1.473c.537.402 1.012.878 1.414 1.414zm-5.598 11.185c-.34 0-.672-.033-1-.08v2.08h2v-2.08c-.328.047-.66.08-1 .08zm4.185-1.402l1.473 1.473 1.415-1.415-1.473-1.472c-.403.536-.879 1.012-1.415 1.414zm-11.185-5.598c0-.34.033-.672.08-1h-2.08v2h2.08c-.047-.328-.08-.66-.08-1zm13.92-1c.047.328.08.66.08 1s-.033.672-.08 1h2.08v-2h-2.08zm-12.519 5.184l-1.473 1.473 1.414 1.414 1.473-1.473c-.536-.402-1.012-.877-1.414-1.414z"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main class="page">
+      <div class="container">
+        <span class="page__title">Blog</span>
+        <h1 class="heading-2">Discover our latest Developer Posts</h1>
+        <form action="" class="blog__search">
+          <div class="blog__search-field">
+            <label for="search-input"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></label>
+            <input type="text" id="search-input" placeholder="Search…" />
+          </div>
+        </form>
+        <div class="blog__posts-wrapper">
+          <div class="card posts__card">
+            <h3 class="card__title">
+              Migrating to GitHub Actions for Rails CI
+            </h3>
+            <p class="card__text">
+              RubyCI is tragically shutting down, so I'm migrating to GitHub
+              Actions for Rails CI.
+            </p>
+            <div class="card__info">
+              <div class="card__info-avatar">
+                <img src="./images/team/05.jpg" alt="profile photo-Henry" />
+              </div>
+              <span>Henry ｜ 13 Oct, 2022</span>
+            </div>
+          </div>
+          <div class="card posts__card">
+            <h3 class="card__title">Our Engineering Principles</h3>
+            <p class="card__text">
+              The principles that we follow as we build high quality software at
+              Lumos.
+            </p>
+            <div class="card__info">
+              <div class="card__info-avatar">
+                <img src="./images/team/05.jpg" alt="profile photo-Henry" />
+              </div>
+              <span>Henry ｜ 8 Sep, 2022</span>
+            </div>
+          </div>
+          <div class="card posts__card">
+            <h3 class="card__title">Getting into Ruby on Rails</h3>
+            <p class="card__text">
+              A friend recently asked me how to get started with Ruby on Rails.
+              I thought I'd write up my response here.
+            </p>
+            <div class="card__info">
+              <div class="card__info-avatar">
+                <img src="./images/team/10.jpg" alt="profile photo-Emma" />
+              </div>
+              <span>Emma ｜ 18 Aug, 2022</span>
+            </div>
+          </div>
+          <div class="card posts__card">
+            <h3 class="card__title">Hotwire Handbook Part 2</h3>
+            <p class="card__text">
+              Part Two of the Hotwire Handbook. A detailed dive into pagination
+              with Hotwire. An extension to the excellent guide by David Colby.
+            </p>
+            <div class="card__info">
+              <div class="card__info-avatar">
+                <img src="./images/team/06.jpg" alt="profile photo-Max" />
+              </div>
+              <span>Max ｜ 27 Jun, 2022</span>
+            </div>
+          </div>
+          <div class="card posts__card">
+            <h3 class="card__title">Upgrade or Rebuild?</h3>
+            <p class="card__text">
+              It’s a question that many developers face. Maintenance takes a
+              back seat to "urgent" new features, and before you know it your
+              dependencies are way out of date.
+            </p>
+            <div class="card__info">
+              <div class="card__info-avatar">
+                <img src="./images/team/05.jpg" alt="profile photo-Henry" />
+              </div>
+              <span>Henry ｜ 25 Jun, 2022</span>
+            </div>
+          </div>
+          <div class="card posts__card">
+            <h3 class="card__title">Admin Authorisation at Lumos</h3>
+            <p class="card__text">
+              We're working on a better way to manage the relationship between
+              users and organisations. This post it about our simple approach to
+              admin users.
+            </p>
+            <div class="card__info">
+              <div class="card__info-avatar">
+                <img src="./images/team/06.jpg" alt="profile photo-Max" />
+              </div>
+              <span>Max ｜ 14 Jun, 2022</span>
+            </div>
+          </div>
+          <div class="card posts__card">
+            <h3 class="card__title">Hotwire Handbook Part 1</h3>
+            <p class="card__text">Hotwire Handbook Part 1</p>
+            <div class="card__info">
+              <div class="card__info-avatar">
+                <img src="./images/team/05.jpg" alt="profile photo-Henry" />
+              </div>
+              <span>Henry ｜ 22 Mar, 2022</span>
+            </div>
+          </div>
+          <div class="card posts__card">
+            <h3 class="card__title">Simple Javascript Theme Toggle</h3>
+            <p class="card__text">
+              Dark mode is becoming more and more common, its something that
+              most operating systems now have as an option and many individual
+              pages now offer it as a preference too. However its not for
+              everyone, and choice is always a good thing.
+            </p>
+            <div class="card__info">
+              <div class="card__info-avatar">
+                <img src="./images/team/09.jpg" alt="profile photo-Mia" />
+              </div>
+              <span>Mia ｜ 20 May, 2021</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="section__footer">
+      <img
+        src="./images/DesktopRibbon.png"
+        alt="footer background image"
+        class="footer__bg-img"
+      />
+      <div class="container footer__wrapper">
+        <div>
+          <img
+            src="./images/logo/Lumos-logo-blue.png"
+            alt="footer image"
+            class="footer__logo"
+          />
+          <div class="footer__social">
+            <a href="https://github.com/" class="icon_circle_link"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="https://twitter.com/" class="icon_circle_link"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="https://www.linkedin.com/company/" class="icon_circle_link"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="./index.html" class="icon_circle_link"
+              ><i class="fa-solid fa-earth-americas"></i
+            ></a>
+          </div>
+        </div>
+        <ul class="footer__links">
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./index.html#team">Our team</a></li>
+          <li><a href="./careers.html">Careers</a></li>
+        </ul>
+      </div>
+      <div class="container copyright">
+        <span>&copy; 2023 Lumos. All rights reserved.</span>
+      </div>
+    </footer>
+    <script src="scripts/ui.js"></script>
+  </body>
+</html>

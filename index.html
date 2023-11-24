@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lumos is the all-in-one communications, employee engagement and shift-booking platform loved by workers.">
+    <meta name="title" contenr="Lumos dev page: This is a page for us to share what we're getting up to in the background!">
+    <meta name="og:description" content="Lumos is the all-in-one communications, employee engagement and shift-booking platform loved by workers.">
+    <meta name="og:title" contenr="Lumos dev page: This is a page for us to share what we're getting up to in the background!">
+    <meta property="og:image" content="images/social-share.jpg">
+    <script
+      src="https://kit.fontawesome.com/40f7398fd9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/dark.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon/favicon-16x16.png"
+    />
+    <title>Lumos Developer Page</title>
+  </head>
+  <body id="home">
+    <header id="header">
+      <div class="container header__wrapper">
+        <a href="index.html" class="header__logo">
+          <div class="logo_image">
+            <img
+              src="./images/logo/Lumos-logo-blue.png"
+              alt="logo_blue"
+              class="header_logo logo-blue"
+            />
+            <img
+              src="./images/logo/Lumos-logo-white.png"
+              alt="logo_white"
+              class="header_logo logo-white"
+            />
+          </div>
+        </a>
+        <input type="checkbox" class="nav__checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="nav__hamburger"><i class="fa-solid fa-bars"></i><i class="fa-solid fa-xmark"></i></label>
+        <nav class="header__navbar">
+          <ul>
+            <li><a href="./index.html#team">Our team</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./careers.html">Careers</a></li>
+          </ul>
+        </nav>
+        <button class="header__mode-btn" onclick="toggleMode()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17 12c0 2.762-2.238 5-5 5s-5-2.238-5-5 2.238-5 5-5 5 2.238 5 5zm-5-7c.34 0 .672.033 1 .08v-2.08h-2v2.08c.328-.047.66-.08 1-.08zm-4.184 1.401l-1.472-1.473-1.415 1.415 1.473 1.473c.402-.537.878-1.013 1.414-1.415zm9.782 1.414l1.473-1.473-1.414-1.414-1.473 1.473c.537.402 1.012.878 1.414 1.414zm-5.598 11.185c-.34 0-.672-.033-1-.08v2.08h2v-2.08c-.328.047-.66.08-1 .08zm4.185-1.402l1.473 1.473 1.415-1.415-1.473-1.472c-.403.536-.879 1.012-1.415 1.414zm-11.185-5.598c0-.34.033-.672.08-1h-2.08v2h2.08c-.047-.328-.08-.66-.08-1zm13.92-1c.047.328.08.66.08 1s-.033.672-.08 1h2.08v-2h-2.08zm-12.519 5.184l-1.473 1.473 1.414 1.414 1.473-1.473c-.536-.402-1.012-.877-1.414-1.414z"/></svg></button>
+      </div>
+    </header>
+
+    <main class="section-hero">
+      <div class="container hero__wrapper">
+        <div class="hero__info">
+          <h1 class="hero__heading">Welcome to our Developer Page!</h1>
+          <p class="hero__content">
+            Welcome to Lumos, where technology meets innovation! This page is your backstage pass to discover the incredible work and innovation happening behind the scenes!
+          </p>
+          <div class="hero__socials">
+            <a href="https://github.com/" class="icon_circle_link"><i class="fa-brands fa-github"></i></a>
+            <a href="https://twitter.com/" class="icon_circle_link"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/" class="icon_circle_link"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="./index.html" class="icon_circle_link"><i class="fa-solid fa-earth-americas"></i></a>
+          </div>
+        </div>
+        <div class="hero__img">
+          <img
+          src="./images/hero-lg.jpg"
+          srcset="./images/hero-lg.jpg 1400w,
+                  ./images/hero-sm.jpg 700w"
+          sizes="(max-width: 1400px) 700px,1400px"
+          alt="hero image" /></div>
+      </div>
+    </main>
+
+    <section class="section-blog" id="blog">
+      <div class="container">
+        <h2 class="heading-2">
+          Our Team's Latest Developer <span class="highlight">Blog Posts</span>
+        </h2>
+        <div class="blog__wrapper">
+          <div class="card blog__card">
+            <h3 class="card__title">
+              Migrating to GitHub Actions for Rails CI
+            </h3>
+            <p class="card__text">
+              RubyCI is tragically shutting down, so I'm migrating to GitHub
+              Actions for Rails CI.
+            </p>
+            <div class="card__info">
+              <div class="card__info-avatar">
+                <img src="./images/team/05.jpg" alt="profile photo-Henry" />
+              </div>
+              <span>Henry ｜ 13 Oct, 2022</span>
+            </div>
+          </div>
+          <div class="card blog__card">
+            <h3 class="card__title">Our Engineering Principles</h3>
+            <p class="card__text">
+              The principles that we follow as we build high quality software at Lumos.
+            </p>
+            <div class="card__info">
+              <div class="card__info-avatar">
+                <img src="./images/team/05.jpg" alt="profile photo-Henry" />
+              </div>
+              <span>Henry ｜ 8 Sep, 2022</span>
+            </div>
+          </div>
+          <div class="card blog__card">
+            <h3 class="card__title">Getting into Ruby on Rails</h3>
+            <p class="card__text">
+              A friend recently asked me how to get started with Ruby on Rails. I thought I'd write up my response here.
+            </p>
+            <div class="card__info">
+              <div class="card__info-avatar">
+                <img src="./images/team/10.jpg" alt="profile photo-Emma" />
+              </div>
+              <span>Emma ｜ 18 Aug, 2022</span>
+            </div>
+          </div>
+        </div>
+        <div class="blog__viewmore">
+          <a href="./blog.html" class="cta_link">View all Posts <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__team" id="team">
+      <div class="container team__wrapper">
+        <h2 class="heading-2-light">Meet Our Devs</h2>
+        <p class="subtitle">More info coming soon!</p>
+
+        <div class="team_cards">
+          <div class="card team-card">
+            <img src="./images/team/01.jpg" alt="profile photo-Nathan" class="team-card__img" />
+            <h4 class="team-card__name">Nathan </br>Johnson</h4>
+            <span class="team-card__role">CTO</span>
+            <div class="team-card__social-media">
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="card team-card">
+            <img src="./images/team/02.jpg" alt="profile photo-Isaac" class="team-card__img" />
+            <h4 class="team-card__name">Isaac </br>Edwards</h4>
+            <span class="team-card__role">Head Of </br>Client Solutions</span>
+            <div class="team-card__social-media">
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="card team-card">
+            <img src="./images/team/05.jpg" alt="profile photo-Henry" class="team-card__img" />
+            <h4 class="team-card__name">Henry </br>Richardson</h4>
+            <span class="team-card__role">Lead Software </br>Developer</span>
+            <div class="team-card__social-media">
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="card team-card">
+            <img src="./images/team/04.jpg" alt="profile photo-Noah" class="team-card__img" />
+            <h4 class="team-card__name">Noah </br>Brown</h4>
+            <span class="team-card__role">Senior Mobile </br>Developer</span>
+            <div class="team-card__social-media">
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="card team-card">
+            <img src="./images/team/10.jpg" alt="profile photo-Emma" class="team-card__img" />
+            <h4 class="team-card__name">Emma </br>Wilson</h4>
+            <span class="team-card__role">Senior Mobile </br>Developer</span>
+            <div class="team-card__social-media">
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="card team-card">
+            <img src="./images/team/07.jpg" alt="profile photo-Samuel" class="team-card__img" />
+            <h4 class="team-card__name">Samuel </br>Murphy</h4>
+            <span class="team-card__role">Mobile </br>Developer</span>
+            <div class="team-card__social-media">
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="card team-card">
+            <img src="./images/team/06.jpg" alt="profile photo-Max" class="team-card__img" />
+            <h4 class="team-card__name">Max </br>Bennett</h4>
+            <span class="team-card__role">Software </br>Developer</span>
+            <div class="team-card__social-media">
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="card team-card">
+            <img src="./images/team/11.jpg" alt="profile photo-Chloe" class="team-card__img" />
+            <h4 class="team-card__name">Chloe </br>Foster</h4>
+            <span class="team-card__role">Software </br>Developer</span>
+            <div class="team-card__social-media">
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="card team-card">
+            <img src="./images/team/09.jpg" alt="profile photo-Mia" class="team-card__img" />
+            <h4 class="team-card__name">Mia </br>Harris</h4>
+            <span class="team-card__role">Junior Developer </br>& Lead Designer</span>
+            <div class="team-card__social-media">
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="card team-card">
+            <img src="./images/team/03.jpg" alt="profile photo-Daniel" class="team-card__img" />
+            <h4 class="team-card__name">Daniel </br>Mitchell</h4>
+            <span class="team-card__role">Junior Mobile </br>Developer</span>
+            <div class="team-card__social-media">
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="card team-card">
+            <img src="./images/team/08.jpg" alt="profile photo-Leo" class="team-card__img" />
+            <h4 class="team-card__name">Leo <br/>Mitchell</h4>
+            <span class="team-card__role">Junior Mobile </br>Developer</span>
+            <div class="team-card__social-media">
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="join-team">
+          <h2>Want to join the <br class="small"/><span class="highlight">Lumos team</span>?</h2>
+          <a class="cta_btn" href="./careers.html">
+            Opportunities at Lumos <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="section__footer order_top">
+      <img src="./images/DesktopRibbon.png" alt="footer background image" class="footer__bg-img">
+      <div class="container footer__wrapper">
+        <div>
+          <img src="./images/logo/Lumos-logo-blue.png" alt="footer logo" class="footer__logo"/>
+          <div class="footer__social">
+            <a href="https://github.com/" class="icon_circle_link"><i class="fa-brands fa-github"></i></a>
+            <a href="https://twitter.com/" class="icon_circle_link"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/" class="icon_circle_link"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="./index.html" class="icon_circle_link"><i class="fa-solid fa-earth-americas"></i></a>
+          </div>
+        </div>
+        <ul class="footer__links">
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./index.html#team">Our team</a></li>
+          <li><a href="./careers.html">Careers</a></li>
+        </ul>
+      </div>
+      <div class="container copyright">
+        <span>&copy; 2023 Lumos. All rights reserved.</span>
+      </div>
+    </footer>
+    <script src="scripts/ui.js"></script>
+  </body>
+</html>
