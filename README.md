@@ -18,7 +18,7 @@ You can check out the online demo [here](https://lumos-website-sigma.vercel.app/
 
 Wireframe (Created by Figma)
 
-![image](https://github.com/Master369963/Lumos-website/blob/main/images/ReadmeAssets/wireframe.png)
+![image](https://github.com/Master369963/Lumos-website/blob/main/images/ReadmeAssets/wireframe.jpg)
 
 Light mode
 
